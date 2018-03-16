@@ -1,0 +1,140 @@
+/* You can add global styles to this file, and also import other style files */
+a {
+  color: #666;
+}
+
+a:hover{
+  color: #2ac1bc;
+  cursor: pointer;
+}
+
+/*
+  lnb 메뉴
+*/
+
+.lnb-list > li > a, .main-menu > li > a, .footer-list > li > a{
+  background:transparent !important;
+}
+
+.lnb-wrap {
+  border-bottom:1px solid #e0e0e0;
+  height:40px;
+}
+
+.lnb-list {
+  margin-right: -5px;
+}
+
+.lnb-list > li > a, .footer-list > li > a{
+  font-size:12px;
+  background: url('/assets/images/common/util_bar.gif') no-repeat 0 12px
+}
+
+.lnb-list > li > a{
+  padding:10px 10px 9px 10px;
+}
+
+.lnb-list > li:first-child > a, .footer-list > li:first-child > a {
+  background:none;
+}
+
+/*
+  메인 메뉴
+*/
+
+.main-menu > li > a {
+  font-weight:bold;
+  padding:30px 20px;
+  font-size:18px;
+}
+
+.logo > .navbar-brand {
+  padding:25px 15px;
+}
+
+/*
+  메뉴 네비
+*/
+
+.navi-wrap{
+  background:#483f35
+}
+
+.navi-nav > ul > li > a {
+  color:#fff;
+  padding:15px 37px;
+  font-weight:bold;
+}
+
+.navi-nav > ul > li > a:hover {
+  background:#fff;
+  color:#2ac1bc;
+}
+
+/*
+  Footer
+*/
+
+.footer-wrap{
+  border-top:1px solid #e0e0e0;
+  padding:20px;
+}
+
+.footer-list{
+  margin-bottom:10px;
+}
+
+
+.footer-list > li > a{
+  padding:10px 15px 9px 15px;
+}
+
+.footer-list > li > a:first-child{
+  padding-left:0;
+}
+
+.footer-info{
+  position:relative;
+  clear:both;
+}
+
+.footer-info > p {
+  font-size:12px;
+  color:#888;
+}
+
+/*
+  로그인
+*/
+
+.login-wrap{
+  float:none;
+  margin:50px auto;
+}
+
+.login-wrap > form > .form-group {
+  margin-bottom:0px;
+}
+
+.login-title{
+  font-weight: bold;
+  text-align: center;
+}
+
+.login-button{
+  margin-top:15px;
+  background:#2ac1bc;
+  font-weight:bold;
+  color:#fff;
+  border-color: #17aba6;
+}
+
+.login-button:hover{
+  background:#17aba6;
+  color:#fff;
+}
+
+.form-size{
+  height: 50px;
+
+}
